@@ -11,13 +11,14 @@
 - polyvore_text_vec/	the vector of all items by Word2Vec
 
 - category_id.txt	the id to category name index for all items
-
-- use_inception.py      the file to extra the raw image of each item in `polyvore_image/` to vectors in 									`polyvore_image_vec` by inception-v3
+ 
 - data_subset.ipynb	the file to subset 10% of the data
+
 - image_embedding_using_VIT.ipynb	the file is used to create image embeddings using pretrained Vision Transformer model from huggingface
   
 ## how to prepare for our model training
 Zero:		    Change all the folder paths in the files to your corresponding ones
+
 First:              download and unzip the polyvore-images from Google Drive [here](https://drive.google.com/drive/folders/0B4Eo9mft9jwoVDNEWlhEbUNUSE0)  
 
 Second:             Click [here](https://drive.google.com/open?id=1ibYEw0H9L9O9OLbxCiAlcZkt_IYuwKfd) for the extracted feature using inception model.
